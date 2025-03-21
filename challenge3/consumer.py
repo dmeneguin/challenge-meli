@@ -15,9 +15,10 @@ MELI_API_OAUTH=os.getenv('MELI_API_OAUTH')
 MELI_API_SEARCH=os.getenv('MELI_API_SEARCH')
 MELI_API_ITEMS=os.getenv('MELI_API_ITEMS')
 REDIRECT_URI=os.getenv('REDIRECT_URI')
+API_TOKEN=os.getenv('API_TOKEN')
 SEARCH_LIMIT = 50
 
-token = ""
+token = API_TOKEN
 
 def make_http_request(method, url, params={}, headers={}):
     if method == 'GET':
