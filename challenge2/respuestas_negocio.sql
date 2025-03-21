@@ -7,9 +7,8 @@ EXTRACT(DAY FROM c.data_de_nascimento) = EXTRACT(DAY FROM current_date) and
 EXTRACT(MONTH FROM o.data_da_venda) = 1 and 
 EXTRACT(YEAR FROM o.data_da_venda) = 2020
 group by c.id
-HAVING SUM(o.valor_total) > 1500
+HAVING SUM(o.valor_total) > 1500;
 
-______________________________________________________________________________
 
 select * from (
 select  cus.nome, 
@@ -34,11 +33,8 @@ on i.category_id = c.id
 left join "Customer" cus
 on o.customer_id_seller = cus.id
 where c.nome = 'celular' and extract (year from o.data_da_venda) = 2020
-group by cus.nome,cus.apelido,mes_venda,ano_venda,o.customer_id_seller) where rank_vendas_mes < 5
+group by cus.nome,cus.apelido,mes_venda,ano_venda,o.customer_id_seller) where rank_vendas_mes < 5;
 
-
-
-________________________________________________________________
 
 
 CREATE TABLE "Items_Daily_Status"(
