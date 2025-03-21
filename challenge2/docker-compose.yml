@@ -1,0 +1,29 @@
+
+services:
+  postgres:
+    image: postgres
+    volumes:
+      - ./basemarketplace.sql:/docker-entrypoint-initdb.d/basemarketplace.sql
+      - ./data.sql:/docker-entrypoint-initdb.d/data.sql
+    environment:
+      POSTGRES_PASSWORD: "Postgres2022!"
+    ports:
+      - "5432:5432"
+    networks:
+      - postgres-compose-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "daniel@email.com"
+      PGADMIN_DEFAULT_PASSWORD: "pgadmin2025"
+    ports:
+      - "16543:80"
+    depends_on:
+      - postgres
+    networks:
+      - postgres-compose-network
+
+networks: 
+  postgres-compose-network:
+    driver: bridge
