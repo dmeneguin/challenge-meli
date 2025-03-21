@@ -17,10 +17,10 @@ VALUES (4,'filomena@email.com','filomena','filo','feminino','rua qwerty 900','19
 
 
 INSERT INTO "Order"("id","data_da_venda","customer_id_seller","valor_total")
-VALUES (1,'2020-02-15',1,800.0);
+VALUES (1,'2020-01-15',1,800.0);
 
 INSERT INTO "Order"("id","data_da_venda","customer_id_seller","valor_total")
-VALUES (2,'2020-02-15',1,500.0);
+VALUES (2,'2020-01-15',1,500.0);
 
 INSERT INTO "Order"("id","data_da_venda","customer_id_seller","valor_total")
 VALUES (3,'2020-03-15',1,300.0);
@@ -41,10 +41,10 @@ INSERT INTO "Order"("id","data_da_venda","customer_id_seller","valor_total")
 VALUES (8,'2020-05-15',1,1400.0);
 
 INSERT INTO "Order"("id","data_da_venda","customer_id_seller","valor_total")
-VALUES (9,'2020-02-15',2,200.0);
+VALUES (9,'2020-01-15',2,200.0);
 
 INSERT INTO "Order"("id","data_da_venda","customer_id_seller","valor_total")
-VALUES (10,'2020-02-15',2,400.0);
+VALUES (10,'2020-01-15',2,400.0);
 
 INSERT INTO "Order"("id","data_da_venda","customer_id_seller","valor_total")
 VALUES (11,'2020-03-15',2,600.0);
@@ -53,13 +53,13 @@ INSERT INTO "Order"("id","data_da_venda","customer_id_seller","valor_total")
 VALUES (12,'2020-03-15',2,200.0);
 
 INSERT INTO "Order"("id","data_da_venda","customer_id_seller","valor_total")
-VALUES (13,'2020-02-15',3,500.0);
+VALUES (13,'2020-01-15',3,500.0);
 
 INSERT INTO "Order"("id","data_da_venda","customer_id_seller","valor_total")
-VALUES (14,'2020-02-15',3,700.0);
+VALUES (14,'2020-01-15',3,700.0);
 
 INSERT INTO "Order"("id","data_da_venda","customer_id_seller","valor_total")
-VALUES (15,'2020-02-15',3,1000.0);
+VALUES (15,'2020-01-15',3,1000.0);
 
 INSERT INTO "Order"("id","data_da_venda","customer_id_seller","valor_total")
 VALUES (16,'2020-03-15',3,800.0);
