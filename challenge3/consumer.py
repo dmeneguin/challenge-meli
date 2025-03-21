@@ -8,8 +8,6 @@ from math import ceil
 
 load_dotenv()
 
-#https://auth.mercadolivre.com.br/authorization?response_type=code&client_id=8816086626352747&state=ABC123&redirect_uri=https://www.google.com
-
 AUTH_CODE=os.getenv('AUTH_CODE')
 CLIENT_ID=os.getenv('CLIENT_ID')
 CLIENT_SECRET=os.getenv('CLIENT_SECRET')
@@ -19,7 +17,7 @@ MELI_API_ITEMS=os.getenv('MELI_API_ITEMS')
 REDIRECT_URI=os.getenv('REDIRECT_URI')
 SEARCH_LIMIT = 50
 
-token = "APP_USR-8816086626352747-032018-11197341113bebaa78bfb68ad09d73a6-127145884"
+token = ""
 
 def make_http_request(method, url, params={}, headers={}):
     if method == 'GET':
