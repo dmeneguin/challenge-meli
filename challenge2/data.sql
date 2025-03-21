@@ -2,16 +2,16 @@
 \c marketplace;
 
 INSERT INTO "Customer"("id","email","nome","apelido","sexo","endereco","data_de_nascimento","telefone")
-VALUES (1,'joao@email.com','joao','jo','masculino','rua abc 123','1993-03-23','1234-1234');
+VALUES (1,'joao@email.com','joao','jo','masculino','rua abc 123','1993-03-21','1234-1234');
 
 INSERT INTO "Customer"("id","email","nome","apelido","sexo","endereco","data_de_nascimento","telefone")
-VALUES (2,'maria@email.com','maria','ma','feminino','rua cde 456','1989-05-22','2345-2345');
+VALUES (2,'maria@email.com','maria','ma','feminino','rua cde 456','1989-03-21','2345-2345');
 
 INSERT INTO "Customer"("id","email","nome","apelido","sexo","endereco","data_de_nascimento","telefone")
-VALUES (3,'gilberto@email.com','gilberto','gil','masculino','rua fge 890','1998-06-02','4444-4444');
+VALUES (3,'gilberto@email.com','gilberto','gil','masculino','rua fge 890','1998-03-21','4444-4444');
 
 INSERT INTO "Customer"("id","email","nome","apelido","sexo","endereco","data_de_nascimento","telefone")
-VALUES (4,'filomena@email.com','filomena','filo','feminino','rua qwerty 900','1999-04-01','5555-6666');
+VALUES (4,'filomena@email.com','filomena','filo','feminino','rua qwerty 900','1999-03-21','5555-6666');
 
 
 
